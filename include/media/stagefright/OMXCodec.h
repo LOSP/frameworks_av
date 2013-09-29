@@ -149,11 +149,6 @@ private:
         EXECUTING_TO_IDLE,
         IDLE_TO_LOADED,
         RECONFIGURING,
-#ifdef QCOM_HARDWARE
-        PAUSING,
-        FLUSHING,
-        PAUSED,
-#endif
         ERROR
     };
 
