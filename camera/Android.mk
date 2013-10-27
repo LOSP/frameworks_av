@@ -40,10 +40,6 @@ ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
 	LOCAL_CFLAGS += -DQCOM_HARDWARE
 endif
 
-ifeq ($(BOARD_USE_XIAOMI_MIONE_HARDWARE),true)
-        LOCAL_CFLAGS += -DUSE_MIONE_CAMERA
-endif
-
 LOCAL_MODULE:= libcamera_client
 
 include $(BUILD_SHARED_LIBRARY)
